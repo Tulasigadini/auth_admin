@@ -2,20 +2,85 @@
 <html>
 <head>
     <title>Welcome to Vrinda Tech Apps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        h1 {
+            color: #1e90ff;
+            font-size: 36px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #1e90ff;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #0a66c2;
+            text-decoration: underline;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .instructions {
+            text-align: left;
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        .code {
+            font-family: "Courier New", Courier, monospace;
+            background-color: #f9f9f9;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome</h1>
-    <h2>Tulasi sai kumar</h2>
-    <a href="8712387892" target="_blank">8712387892<br></a>
-    <a href="tskgadini@gmail.com" target="_blank">tskgadini@gmail.com<br></a>
-    <a href="https://github.com/your_username/your_repository" target="_blank">GitHub Repo</a>
+    <div class="content">
+        <h1>Welcome to Vrinda Tech Apps</h1>
+        <h2>Tulasi Sai Kumar</h2>
+        <a href="tel:8712387892" target="_blank">8712387892<br></a>
+        <a href="mailto:tskgadini@gmail.com" target="_blank">tskgadini@gmail.com<br></a>
+        <a href="https://github.com/Tulasigadini/auth_admin" target="_blank">GitHub Repo</a>
 
-    <h2>how to run this project</h2>
-    <p>do migrations =python manage.py makemigrations app</p>
-    <p>python manage.py migrate</p>
-    <p>create super user by command=python manage.py create_office_head_superuser t@gmail.com 123456 like this</p>
-    <p>python manage.py runserver</p>
-    <p>http://127.0.0.1:8000/</p>
-    <p>http://127.0.0.1:8000/admin/</p>
+        <h2>How to run this project</h2>
+        <div class="instructions">
+            <p>1. make migrations:</p>
+            <p class="code">python manage.py makemigrations app</p>
+            <p>2. Apply migrations:</p>
+            <p class="code">python manage.py migrate</p>
+            <p>3. Create a superuser:</p>
+            <p class="code">python manage.py create_office_head_superuser t@gmail.com 123456</p>
+            <p>4. Run the development server:</p>
+            <p class="code">python manage.py runserver</p>
+            <p>5. Access the app at:</p>
+            <p class="code">http://127.0.0.1:8000/</p>
+            <p>6. Access the admin panel at:</p>
+            <p class="code">http://127.0.0.1:8000/admin/</p>
+        </div>
+    </div>
 </body>
 </html>
